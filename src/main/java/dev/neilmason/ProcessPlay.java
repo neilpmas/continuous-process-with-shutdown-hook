@@ -12,7 +12,7 @@ public class ProcessPlay {
     public static final int THREAD_TERMINATION_TIMEOUT_MILLIS = 3000;
     private static volatile boolean SHOULD_I_RUN = true;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         ExecutorService service = Executors.newSingleThreadExecutor();
         Thread hook = new Thread(() -> {
