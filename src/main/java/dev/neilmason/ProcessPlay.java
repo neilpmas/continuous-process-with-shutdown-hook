@@ -29,7 +29,7 @@ public class ProcessPlay {
         Runtime.getRuntime().addShutdownHook(hook);
 
         service.execute(new OutputPrinter());
-        System.out.println("Made it here");
+        System.out.println("End of main");
 
     }
 
